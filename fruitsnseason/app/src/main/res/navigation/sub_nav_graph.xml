@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragment_detail"
+    android:id="@+id/sub_nav_graph">
+    <fragment
+        android:id="@+id/fragment_detail"
+        android:name="com.milkndcoffee.fruitsnseason.Controller.Fragments.FruitDetailFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_fruit_detail">
+        <argument
+            android:name="band_id"
+            android:defaultValue="1"
+            app:argType="integer" />
+    </fragment>
+</navigation>

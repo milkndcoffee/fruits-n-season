@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Controller.Fragments.ResourceFragment">
+
+    <TextView
+        style="@style/FruitH1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="resources" />
+    <TextView
+        style="@style/Subtitle"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="containing various helpful information" />
+
+    <Button
+        android:id="@+id/link_button1"
+        style="@style/ButtonStyle"
+        android:text="SNAP-ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Online resource center funded and maintained by the USDA Food and Nutrion Service (FNS)."
+        />
+    <Button
+        android:id="@+id/link_button2"
+        style="@style/ButtonStyle"
+        android:text="USDA Fruit Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Statistics on different fruits of which can be categorized by price, production, and etc."
+        />
+
+    <Button
+        android:id="@+id/map_button"
+        style="@style/ButtonStyle"
+        android:text="FP Farmer's Market"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Interested in buying fruits? Come and check out this unique Farmer's Market that's open thrice-weekly!"
+        />
+</LinearLayout>

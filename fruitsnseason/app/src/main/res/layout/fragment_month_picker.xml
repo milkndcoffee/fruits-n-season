@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Controller.Fragments.MonthPickerFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/FruitH1"
+        android:text="select month" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Subtitle"
+        android:layout_marginBottom="8dp"
+        android:text="for viewing different fruits in season." />
+
+
+    <Button
+        android:id="@+id/button_jan"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01 - jan"
+        />
+    <Button
+        android:id="@+id/button_feb"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="02 - feb"
+        />
+    <Button
+        android:id="@+id/button_mar"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="03 - mar"
+        />
+    <Button
+        android:id="@+id/button_apr"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="04 - apr"
+        />
+    <Button
+        android:id="@+id/button_may"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="05 - may"
+        />
+    <Button
+        android:id="@+id/button_jun"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="06 - jun"
+        />
+    <Button
+        android:id="@+id/button_jul"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="07 - jul"
+        />
+    <Button
+        android:id="@+id/button_aug"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="08 - aug"
+        />
+    <Button
+        android:id="@+id/button_sep"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="09 - sep"
+        />
+    <Button
+        android:id="@+id/button_oct"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 - oct"
+        />
+    <Button
+        android:id="@+id/button_nov"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="11 - nov"
+        />
+    <Button
+        android:id="@+id/button_dec"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12 - dec"
+        />
+</LinearLayout>
+</ScrollView>

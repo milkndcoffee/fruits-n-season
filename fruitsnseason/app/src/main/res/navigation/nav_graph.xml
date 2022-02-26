@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/navigation_home">
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.milkndcoffee.fruitsnseason.Controller.Fragments.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/show_item_detail"
+            app:destination="@id/fruit_detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/fruit_detail"
+        android:name="com.milkndcoffee.fruitsnseason.Controller.Fragments.FruitDetailFragment"
+        android:label="details"
+        tools:layout="@layout/fragment_fruit_detail">
+        <argument
+            android:name="fruit_id"
+            android:defaultValue="1"
+            app:argType="integer" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.milkndcoffee.fruitsnseason.Controller.Fragments.MonthPickerFragment"
+        android:label="month"
+        tools:layout="@layout/fragment_month_picker" >
+        <action
+            android:id="@+id/action_navigation_search_to_navigation_list"
+            app:destination="@id/navigation_list" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.milkndcoffee.fruitsnseason.Controller.Fragments.ListFragment"
+        android:label="month"
+        tools:layout="@layout/fragment_list"
+        >
+        <action
+            android:id="@+id/action_navigation_list_to_fruit_detail"
+            app:destination="@id/fruit_detail2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fruit_detail2"
+        android:name="com.milkndcoffee.fruitsnseason.Controller.Fragments.FruitDetailFragment2"
+        android:label="details"
+        tools:layout="@layout/fragment_fruit_detail">
+        <argument
+            android:name="fruit_id"
+            android:defaultValue="1"
+            app:argType="integer" />
+        <argument
+            android:name="month"
+            android:defaultValue="jan"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_resource"
+        android:name="com.milkndcoffee.fruitsnseason.Controller.Fragments.ResourceFragment"
+        android:label="@string/title_resource"
+        tools:layout="@layout/fragment_resource" />
+</navigation>

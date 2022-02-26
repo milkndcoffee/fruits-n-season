@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controller.Fragments.HomeFragment"
+    style="@style/Container"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/fruit_name_field"
+        style="@style/FruitH1"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="fruit title" />
+    <ImageView
+        android:id="@+id/fruit_image_field"
+        android:layout_width="376dp"
+        android:layout_height="368dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:cropToPadding="true"
+        android:layout_gravity="center"
+        />
+    <TextView
+        style="@style/SecondaryP"
+        android:id="@+id/fruit_months_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Available during November and February" />
+
+
+</LinearLayout>
