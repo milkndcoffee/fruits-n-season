@@ -36,3 +36,24 @@ but given the timeframe I would not have been able to add that function as I had
 
 #### Resource Screen (Fragment)
 ![image](https://user-images.githubusercontent.com/64164615/155825441-f5b51faf-9868-4b82-9e79-4a59816923f1.png)
+
+#### Settings Activity (Plain & Simple Theme Changing)
+![image](https://user-images.githubusercontent.com/64164615/155825550-96a18d66-c4ba-4d5e-a886-bebbf7542eac.png)
+![image](https://user-images.githubusercontent.com/64164615/155825558-2f1ada80-a940-4309-b054-20094b470a44.png)
+
+
+![image](https://user-images.githubusercontent.com/64164615/155825562-67002fb4-200b-4087-b389-730cec95c1c2.png)
+![image](https://user-images.githubusercontent.com/64164615/155825163-e7289b87-8e2b-41db-81a9-6dea133d3820.png)
+
+![image](https://user-images.githubusercontent.com/64164615/155825574-491822f1-d26a-48b6-b0a6-1e7e7a267b78.png)
+
+
+![image](https://user-images.githubusercontent.com/64164615/155825585-321658b5-ae0a-4b32-934b-51b196eb6b3e.png)
+
+
+![image](https://user-images.githubusercontent.com/64164615/155825582-6874fc22-2068-41df-b23b-7bd9d3f8dc74.png)
+
+
+
+
+
