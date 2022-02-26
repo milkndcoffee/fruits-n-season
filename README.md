@@ -1,8 +1,6 @@
 # fruits-n-season
 Android application that displays fruits currently in season depending on the month.
-```diff
-@@ Utilizes Firebase Realtime DB @@
-```
+
 
 ### Mockup/Framework:
 This is a quick draft for project. Initially I wanted to create a search function 
